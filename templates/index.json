@@ -271,7 +271,7 @@
         "layout": "left",
         "height": 750,
         "framed": false,
-        "parallax": true
+        "parallax": false
       }
     },
     "11980fc9-dc95-4f08-9d7e-edfe789a5c79": {
