@@ -16,7 +16,7 @@
             "link_text_2": "Shop all",
             "color_accent": "#000000",
             "text_align": "vertical-center horizontal-center",
-            "overlay_opacity": 0,
+            "overlay_opacity": 20,
             "focal_point": "center center"
           }
         },
@@ -98,7 +98,7 @@
       ],
       "settings": {
         "section_height": "100vh",
-        "mobile_height": "auto",
+        "mobile_height": "100vh",
         "parallax": true,
         "style": "dots",
         "autoplay": true,
