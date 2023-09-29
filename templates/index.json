@@ -36,17 +36,71 @@
             "overlay_opacity": 0,
             "focal_point": "top center"
           }
+        },
+        "3cebb2c3-a06c-46c0-b305-12d1d51d198b": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Two line\ntitle slide.",
+            "title_size": 80,
+            "subheading": "And optional subtext",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "2edabdba-5cbf-47f8-b23a-f4cb06e301e4": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Two line\ntitle slide.",
+            "title_size": 80,
+            "subheading": "And optional subtext",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "7e95ef3f-cb3c-4b5d-8d1a-717579160b09": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Two line\ntitle slide.",
+            "title_size": 80,
+            "subheading": "And optional subtext",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
         "slideshow-0",
-        "slideshow-1"
+        "slideshow-1",
+        "3cebb2c3-a06c-46c0-b305-12d1d51d198b",
+        "2edabdba-5cbf-47f8-b23a-f4cb06e301e4",
+        "7e95ef3f-cb3c-4b5d-8d1a-717579160b09"
       ],
       "settings": {
         "section_height": "100vh",
         "mobile_height": "auto",
         "parallax": true,
-        "style": "bars",
+        "style": "dots",
         "autoplay": true,
         "autoplay_speed": 7
       }
