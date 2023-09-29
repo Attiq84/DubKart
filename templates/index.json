@@ -111,7 +111,7 @@
         "featured-collections-0": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "home-decor",
             "title": "",
             "focal_point": "center center"
           }
