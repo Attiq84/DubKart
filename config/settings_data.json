@@ -105,7 +105,7 @@
         "settings": {
           "main_menu_link_list": "new-menu",
           "mega_menu_images": true,
-          "main_menu_alignment": "center-split",
+          "main_menu_alignment": "left-center",
           "header_style": "sticky",
           "sticky_index": true,
           "sticky_collection": false,
