@@ -8,13 +8,13 @@
           "settings": {
             "top_subheading": "",
             "title": "Two line\ntitle slide.",
-            "title_size": 80,
+            "title_size": 60,
             "subheading": "And optional subtext",
-            "link": "shopify:\/\/collections\/all",
+            "link": "shopify:\/\/collections",
             "link_text": "Shop this",
             "link_2": "shopify:\/\/collections\/all",
             "link_text_2": "Shop all",
-            "color_accent": "#000000",
+            "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
             "overlay_opacity": 20,
             "focal_point": "center center"
