@@ -54,10 +54,11 @@
     "734b99d6-e73b-4801-9269-63cddb52ad98": {
       "type": "text-and-image",
       "settings": {
-        "image_width": 700,
+        "image": "shopify:\/\/shop_images\/Happy_Helper.jpg",
+        "image_width": 450,
         "subtitle": "",
-        "title": "Image with text",
-        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "title": "Happy Helper",
+        "text": "<p>They show up on and off everyday, ensuring everyone is entertained and motivated. They only accept candies and toys as modes of payment !<\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
