@@ -1810,20 +1810,20 @@ lazySizesConfig.expFactor = 4;
   
   // Either collapsible containers all acting individually,
   // or tabs that can only have one open at a time
-  theme.collapsibles = (function() {
-    var selectors = {
-      trigger: '.collapsible-trigger',
-      module: '.collapsible-content',
-      moduleInner: '.collapsible-content__inner',
-      tabs: '.collapsible-trigger--tab'
-    };
+  // theme.collapsibles = (function() {
+  //   var selectors = {
+  //     trigger: '.collapsible-trigger',
+  //     module: '.collapsible-content',
+  //     moduleInner: '.collapsible-content__inner',
+  //     tabs: '.collapsible-trigger--tab'
+  //   };
   
-    var classes = {
-      hide: 'hide',
-      open: 'is-open',
-      autoHeight: 'collapsible--auto-height',
-      tabs: 'collapsible-trigger--tab'
-    };
+  //   var classes = {
+  //     hide: 'hide',
+  //     open: 'is-open',
+  //     autoHeight: 'collapsible--auto-height',
+  //     tabs: 'collapsible-trigger--tab'
+  //   };
   
     var namespace = '.collapsible';
   
@@ -5867,7 +5867,7 @@ lazySizesConfig.expFactor = 4;
       colorSwatch: '.color-swatch--with-image',
   
       collectionGrid: '.collection-grid__wrapper',
-      trigger: '.collapsible-trigger',
+      // trigger: '.collapsible-trigger',
       sidebar: '#CollectionSidebar',
       filterSidebar: '.collapsible-content--sidebar',
       activeTagList: '.tag-list--active-tags',
