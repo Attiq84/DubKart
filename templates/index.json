@@ -217,6 +217,32 @@
         "view_all": false,
         "divider": false
       }
+    },
+    "611aa46d-6a8a-4bea-b953-52d39a830909": {
+      "type": "faq",
+      "blocks": {
+        "template--21159103463707__611aa46d-6a8a-4bea-b953-52d39a830909-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+          }
+        },
+        "template--21159103463707__611aa46d-6a8a-4bea-b953-52d39a830909-question-2": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21159103463707__611aa46d-6a8a-4bea-b953-52d39a830909-question-1",
+        "template--21159103463707__611aa46d-6a8a-4bea-b953-52d39a830909-question-2"
+      ],
+      "settings": {
+        "title": "FAQs"
+      }
     }
   },
   "order": [
@@ -225,6 +251,7 @@
     "promo-grid",
     "featured-collection",
     "background-image-text",
-    "11980fc9-dc95-4f08-9d7e-edfe789a5c79"
+    "11980fc9-dc95-4f08-9d7e-edfe789a5c79",
+    "611aa46d-6a8a-4bea-b953-52d39a830909"
   ]
 }
