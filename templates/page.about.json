@@ -9,7 +9,7 @@
       "type": "text-and-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/Raju.jpg",
-        "image_width": 700,
+        "image_width": 400,
         "subtitle": "",
         "title": "Raju",
         "text": "<p>Top dawg of the business, who manages everyone and everything. Amongst other qualities that he boast, if you give this man any problem, he will solve it! Tried and tested!<\/p>",
@@ -21,14 +21,14 @@
         "divider": false
       }
     },
-    "f7af4a63-0efb-46d8-b87a-e70ae8ea8c4e": {
+    "7e2e569b-3974-416e-957b-44c0681ff3eb": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Veer.jpg",
-        "image_width": 450,
+        "image": "shopify:\/\/shop_images\/Faaz.jpg",
+        "image_width": 400,
         "subtitle": "",
-        "title": "Image with text",
-        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "title": "Faaz",
+        "text": "<p>The system dude, sits on the computer all day, and hopes to get an order! He's a no nonsense person, talks a bit but does a lot! He's the backbone of our business!<\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -37,10 +37,11 @@
         "divider": false
       }
     },
-    "7e2e569b-3974-416e-957b-44c0681ff3eb": {
+    "f7af4a63-0efb-46d8-b87a-e70ae8ea8c4e": {
       "type": "text-and-image",
       "settings": {
-        "image_width": 700,
+        "image": "shopify:\/\/shop_images\/Veer.jpg",
+        "image_width": 450,
         "subtitle": "",
         "title": "Image with text",
         "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
@@ -67,13 +68,29 @@
         "layout": "right",
         "divider": false
       }
+    },
+    "732560f5-77c0-4300-bf5b-e30fedb1b42a": {
+      "type": "text-and-image",
+      "settings": {
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Image with text",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
     "8cbac3ac-6a83-4424-b4d8-614201a4a186",
-    "f7af4a63-0efb-46d8-b87a-e70ae8ea8c4e",
     "7e2e569b-3974-416e-957b-44c0681ff3eb",
-    "734b99d6-e73b-4801-9269-63cddb52ad98"
+    "f7af4a63-0efb-46d8-b87a-e70ae8ea8c4e",
+    "734b99d6-e73b-4801-9269-63cddb52ad98",
+    "732560f5-77c0-4300-bf5b-e30fedb1b42a"
   ]
 }
