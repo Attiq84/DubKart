@@ -200,8 +200,8 @@
         "image": "shopify:\/\/shop_images\/iStock-949190736-1200x800_1.jpg",
         "focal_point": "80% 0",
         "layout": "left",
-        "height": 750,
-        "framed": false,
+        "height": 650,
+        "framed": true,
         "parallax": false
       }
     },
