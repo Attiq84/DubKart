@@ -47,7 +47,7 @@
         "featured-collections-1": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "personal-organizers",
             "title": "",
             "focal_point": "center center"
           }
@@ -55,7 +55,7 @@
         "featured-collections-2": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "action-figures-dolls",
             "title": "",
             "focal_point": "center center"
           }
@@ -63,7 +63,7 @@
         "featured-collections-3": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "baby-and-toddler-toys",
             "title": "",
             "focal_point": "center center"
           }
@@ -71,7 +71,7 @@
         "93e7e771-7c75-4213-b3b6-eac4b1f0ba6c": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "kitchen-dining-bar",
             "title": "",
             "focal_point": "center center"
           }
@@ -79,7 +79,7 @@
         "64462a33-7e1a-4f0f-b859-fc9ffd36d342": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "diy-craft-accessories",
             "title": "",
             "focal_point": "center center"
           }
@@ -87,7 +87,7 @@
         "7f67ef14-f92c-4ce0-a8b6-b83b2db366ff": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "organizers",
             "title": "",
             "focal_point": "center center"
           }
@@ -95,7 +95,7 @@
         "ca1099fd-b4a1-444a-8886-cb297299f016": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "fitness-exercise",
             "title": "",
             "focal_point": "center center"
           }
