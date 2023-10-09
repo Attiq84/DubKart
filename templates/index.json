@@ -29,7 +29,7 @@
         "section_height": "100vh",
         "mobile_height": "100vh",
         "parallax": false,
-        "style": "dots",
+        "style": "minimal",
         "autoplay": false,
         "autoplay_speed": 7
       }
