@@ -182,7 +182,7 @@
         "home_featured_products": "containers-storage",
         "per_row": 4,
         "rows": 1,
-        "mobile_scrollable": true,
+        "mobile_scrollable": false,
         "view_all": false,
         "divider": false
       }
@@ -205,8 +205,8 @@
     "11980fc9-dc95-4f08-9d7e-edfe789a5c79": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
-        "home_featured_products": "",
+        "title": "Bar Essentials",
+        "home_featured_products": "kitchen-dining-bar",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
