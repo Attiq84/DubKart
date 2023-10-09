@@ -153,8 +153,8 @@
           "7a885529-6d77-4058-8893-cb259bc18562": {
             "type": "menu",
             "settings": {
-              "show_footer_title": false,
-              "menu": "footer",
+              "show_footer_title": true,
+              "menu": "policies",
               "container_width": 20
             }
           },
