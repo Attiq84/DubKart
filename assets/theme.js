@@ -3086,8 +3086,8 @@ lazySizesConfig.expFactor = 4;
     var defaults = {
       adaptiveHeight: false,
       autoPlay: false,
-      avoidReflow: false, // custom by Archetype
-      childNav: null, // element. Custom by Archetype instead of asNavFor
+      avoidReflow: false, // custom by Attiq
+      childNav: null, // element. Custom by Attiq instead of asNavFor
       childNavScroller: null, // element
       childVertical: false,
       dragThreshold: 7,
