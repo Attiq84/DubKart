@@ -145,8 +145,8 @@
           "4903894f-f5d4-4a5a-a1fc-4b3d2fc52cea": {
             "type": "menu",
             "settings": {
-              "show_footer_title": false,
-              "menu": "footer",
+              "show_footer_title": true,
+              "menu": "about",
               "container_width": 20
             }
           },
