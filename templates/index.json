@@ -16,6 +16,7 @@
             "link_text_2": "Shop all",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/nw-slide.jpg",
             "overlay_opacity": 20,
             "focal_point": "center center"
           }
@@ -27,9 +28,9 @@
       "settings": {
         "section_height": "100vh",
         "mobile_height": "100vh",
-        "parallax": true,
+        "parallax": false,
         "style": "dots",
-        "autoplay": true,
+        "autoplay": false,
         "autoplay_speed": 7
       }
     },
