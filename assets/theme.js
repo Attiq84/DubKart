@@ -1810,123 +1810,123 @@ lazySizesConfig.expFactor = 4;
   
   // Either collapsible containers all acting individually,
   // or tabs that can only have one open at a time
-  // theme.collapsibles = (function() {
-  //   var selectors = {
-  //     trigger: '.collapsible-trigger',
-  //     module: '.collapsible-content',
-  //     moduleInner: '.collapsible-content__inner',
-  //     tabs: '.collapsible-trigger--tab'
-  //   };
+  theme.collapsibles = (function() {
+    var selectors = {
+      trigger: '.collapsible-trigger',
+      module: '.collapsible-content',
+      moduleInner: '.collapsible-content__inner',
+      tabs: '.collapsible-trigger--tab'
+    };
   
-  //   var classes = {
-  //     hide: 'hide',
-  //     open: 'is-open',
-  //     autoHeight: 'collapsible--auto-height',
-  //     tabs: 'collapsible-trigger--tab'
-  //   };
+    var classes = {
+      hide: 'hide',
+      open: 'is-open',
+      autoHeight: 'collapsible--auto-height',
+      tabs: 'collapsible-trigger--tab'
+    };
   
-    // var namespace = '.collapsible';
+    var namespace = '.collapsible';
   
-    // var isTransitioning = false;
+    var isTransitioning = false;
   
-    // function init(scope) {
-    //   var el = scope ? scope : document;
-    //   el.querySelectorAll(selectors.trigger).forEach(trigger => {
-    //     var state = trigger.classList.contains(classes.open);
-    //     trigger.setAttribute('aria-expanded', state);
+    function init(scope) {
+      var el = scope ? scope : document;
+      el.querySelectorAll(selectors.trigger).forEach(trigger => {
+        var state = trigger.classList.contains(classes.open);
+        trigger.setAttribute('aria-expanded', state);
   
-    //     trigger.off('click' + namespace);
-    //     trigger.on('click' + namespace, toggle);
-    //   });
-    // }
+        trigger.off('click' + namespace);
+        trigger.on('click' + namespace, toggle);
+      });
+    }
   
-    // function toggle(evt) {
-    //   if (isTransitioning) {
-    //     return;
-    //   }
+    function toggle(evt) {
+      if (isTransitioning) {
+        return;
+      }
   
-    //   isTransitioning = true;
+      isTransitioning = true;
   
-    //   var el = evt.currentTarget;
-    //   var isOpen = el.classList.contains(classes.open);
-    //   var isTab = el.classList.contains(classes.tabs);
-    //   var moduleId = el.getAttribute('aria-controls');
-    //   var container = document.getElementById(moduleId);
+      var el = evt.currentTarget;
+      var isOpen = el.classList.contains(classes.open);
+      var isTab = el.classList.contains(classes.tabs);
+      var moduleId = el.getAttribute('aria-controls');
+      var container = document.getElementById(moduleId);
   
-    //   if (!moduleId) {
-    //     moduleId = el.dataset.controls;
-    //   }
+      if (!moduleId) {
+        moduleId = el.dataset.controls;
+      }
   
-    //   // No ID, bail
-    //   if (!moduleId) {
-    //     return;
-    //   }
+      // No ID, bail
+      if (!moduleId) {
+        return;
+      }
   
-    //   // If container=null, there isn't a matching ID.
-    //   // Check if data-id is set instead. Could be multiple.
-    //   // Select based on being in the same parent div.
-    //   if (!container) {
-    //     var multipleMatches = document.querySelectorAll('[data-id="' + moduleId + '"]');
-    //     if (multipleMatches.length > 0) {
-    //       container = el.parentNode.querySelector('[data-id="' + moduleId + '"]');
-    //     }
-    //   }
+      // If container=null, there isn't a matching ID.
+      // Check if data-id is set instead. Could be multiple.
+      // Select based on being in the same parent div.
+      if (!container) {
+        var multipleMatches = document.querySelectorAll('[data-id="' + moduleId + '"]');
+        if (multipleMatches.length > 0) {
+          container = el.parentNode.querySelector('[data-id="' + moduleId + '"]');
+        }
+      }
   
-    //   if (!container) {
-    //     isTransitioning = false;
-    //     return;
-    //   }
+      if (!container) {
+        isTransitioning = false;
+        return;
+      }
   
-    //   var height = container.querySelector(selectors.moduleInner).offsetHeight;
-    //   var isAutoHeight = container.classList.contains(classes.autoHeight);
-    //   var parentCollapsibleEl = container.parentNode.closest(selectors.module);
-    //   var childHeight = height;
+      var height = container.querySelector(selectors.moduleInner).offsetHeight;
+      var isAutoHeight = container.classList.contains(classes.autoHeight);
+      var parentCollapsibleEl = container.parentNode.closest(selectors.module);
+      var childHeight = height;
   
-    //   if (isTab) {
-    //     if(isOpen) {
-    //       isTransitioning = false;
-    //       return;
-    //     }
+      if (isTab) {
+        if(isOpen) {
+          isTransitioning = false;
+          return;
+        }
   
-    //     var newModule;
-    //     document.querySelectorAll(selectors.tabs + '[data-id="'+ el.dataset.id +'"]').forEach(el => {
-    //       el.classList.remove(classes.open);
-    //       newModule = document.querySelector('#' + el.getAttribute('aria-controls'));
-    //       setTransitionHeight(newModule, 0, true);
-    //     });
-    //   }
+        var newModule;
+        document.querySelectorAll(selectors.tabs + '[data-id="'+ el.dataset.id +'"]').forEach(el => {
+          el.classList.remove(classes.open);
+          newModule = document.querySelector('#' + el.getAttribute('aria-controls'));
+          setTransitionHeight(newModule, 0, true);
+        });
+      }
   
-    //   // If isAutoHeight, set the height to 0 just after setting the actual height
-    //   // so the closing animation works nicely
-    //   if (isOpen && isAutoHeight) {
-    //     setTimeout(function() {
-    //       height = 0;
-    //       setTransitionHeight(container, height, isOpen, isAutoHeight);
-    //     }, 0);
-    //   }
+      // If isAutoHeight, set the height to 0 just after setting the actual height
+      // so the closing animation works nicely
+      if (isOpen && isAutoHeight) {
+        setTimeout(function() {
+          height = 0;
+          setTransitionHeight(container, height, isOpen, isAutoHeight);
+        }, 0);
+      }
   
-    //   if (isOpen && !isAutoHeight) {
-    //     height = 0;
-    //   }
+      if (isOpen && !isAutoHeight) {
+        height = 0;
+      }
   
-    //   el.setAttribute('aria-expanded', !isOpen);
-    //   if (isOpen) {
-    //     el.classList.remove(classes.open);
-    //   } else {
-    //     el.classList.add(classes.open);
-    //   }
+      el.setAttribute('aria-expanded', !isOpen);
+      if (isOpen) {
+        el.classList.remove(classes.open);
+      } else {
+        el.classList.add(classes.open);
+      }
   
-    //   setTransitionHeight(container, height, isOpen, isAutoHeight);
+      setTransitionHeight(container, height, isOpen, isAutoHeight);
   
-    //   // If we are in a nested collapsible element like the mobile nav,
-    //   // also set the parent element's height
-    //   if (parentCollapsibleEl) {
-    //     var totalHeight = isOpen
-    //                       ? parentCollapsibleEl.offsetHeight - childHeight
-    //                       : height + parentCollapsibleEl.offsetHeight;
+      // If we are in a nested collapsible element like the mobile nav,
+      // also set the parent element's height
+      if (parentCollapsibleEl) {
+        var totalHeight = isOpen
+                          ? parentCollapsibleEl.offsetHeight - childHeight
+                          : height + parentCollapsibleEl.offsetHeight;
   
-    //     setTransitionHeight(parentCollapsibleEl, totalHeight, false, false);
-    //   }
+        setTransitionHeight(parentCollapsibleEl, totalHeight, false, false);
+      }
   
       // If Shopify Product Reviews app installed,
       // resize container on 'Write review' click
