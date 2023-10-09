@@ -209,7 +209,7 @@
         "home_featured_products": "kitchen-dining-bar",
         "per_row": 4,
         "rows": 1,
-        "mobile_scrollable": true,
+        "mobile_scrollable": false,
         "view_all": false,
         "divider": false
       }
