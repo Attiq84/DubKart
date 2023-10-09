@@ -99,6 +99,62 @@
             "title": "",
             "focal_point": "center center"
           }
+        },
+        "1d670257-f274-4955-b9ca-0efddde036c5": {
+          "type": "collection",
+          "settings": {
+            "collection": "painting-drawing-sketching-coloring",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "ed2681e2-927a-4f7e-8d57-91fe41902437": {
+          "type": "collection",
+          "settings": {
+            "collection": "baby-safety",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "0b93211c-8e48-463d-9264-1c7add287cee": {
+          "type": "collection",
+          "settings": {
+            "collection": "bags-handbags",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "7cbfa37e-c751-4298-b0ec-7803bfa24818": {
+          "type": "collection",
+          "settings": {
+            "collection": "miscellaneous",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "c0191229-dc9a-4762-bf31-8974bfe39139": {
+          "type": "collection",
+          "settings": {
+            "collection": "pet-play-activity-toys",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "6f836d51-f9e3-4aab-8849-3b04fa91458b": {
+          "type": "collection",
+          "settings": {
+            "collection": "wallets",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "a169c145-e794-463e-a4b7-6889beae977e": {
+          "type": "collection",
+          "settings": {
+            "collection": "pretend-play",
+            "title": "",
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
@@ -109,7 +165,14 @@
         "93e7e771-7c75-4213-b3b6-eac4b1f0ba6c",
         "64462a33-7e1a-4f0f-b859-fc9ffd36d342",
         "7f67ef14-f92c-4ce0-a8b6-b83b2db366ff",
-        "ca1099fd-b4a1-444a-8886-cb297299f016"
+        "ca1099fd-b4a1-444a-8886-cb297299f016",
+        "1d670257-f274-4955-b9ca-0efddde036c5",
+        "ed2681e2-927a-4f7e-8d57-91fe41902437",
+        "0b93211c-8e48-463d-9264-1c7add287cee",
+        "7cbfa37e-c751-4298-b0ec-7803bfa24818",
+        "c0191229-dc9a-4762-bf31-8974bfe39139",
+        "6f836d51-f9e3-4aab-8849-3b04fa91458b",
+        "a169c145-e794-463e-a4b7-6889beae977e"
       ],
       "settings": {
         "title": "Shop by category",
