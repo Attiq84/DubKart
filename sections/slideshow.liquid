@@ -5,7 +5,7 @@
 
   {%- if section.blocks.size > 0 -%}
     <div class="slideshow-wrapper">
-      {%- if section.settings.autoplay and section.settings.style == 'bars' and section.blocks.size > 1 -%}
+      <!-- {%- if section.settings.autoplay and section.settings.style == 'bars' and section.blocks.size > 1 -%}
         {%- style -%}
           [data-bars][data-autoplay="true"] .flickity-page-dots .dot:after {
             animation-duration: {{ section.settings.autoplay_speed | times: 1000 }}ms;
@@ -22,7 +22,7 @@
             <span class="icon__fallback-text">{{ 'sections.slideshow.play_slideshow' | t }}</span>
           </span>
         </button>
-      {%- endif -%}
+      {%- endif -%} -->
 
       {%- assign natural_height = false -%}
       {%- assign natural_mobile_height = false -%}
@@ -345,7 +345,30 @@
         "label": "Enable parallax",
         "default": true
       },
-      
+      {
+        "type": "select",
+        "id": "style",
+        "label": "Slide navigation style",
+        "default": "bars",
+        "options": [
+          {
+            "value": "minimal",
+            "label": "Minimal"
+          },
+          {
+            "value": "arrows",
+            "label": "Arrows"
+          },
+          {
+            "value": "bars",
+            "label": "Bars"
+          },
+          {
+            "value": "dots",
+            "label": "Dots"
+          }
+        ]
+      },
       {
         "type": "checkbox",
         "id": "autoplay",
