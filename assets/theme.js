@@ -20,7 +20,7 @@ if (theme.config.isTouch) {
 }
 
 if (console && console.log) {
-  console.log('Impulse theme ('+theme.settings.themeVersion+') by ARCHΞTYPE | Learn more at https://archetypethemes.co');
+  console.log('Dawn theme ('+theme.settings.themeVersion+') by ARCHΞTYPE | Learn more at https://www.shopify.com');
 }
 
 theme.recentlyViewed = {
