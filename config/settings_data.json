@@ -142,6 +142,15 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "30cec932-43ff-47f9-b782-b3c94b6d1da0": {
+            "type": "custom",
+            "settings": {
+              "show_footer_title": true,
+              "title": "Custom text",
+              "text": "<p>Add your own custom text here.<\/p>",
+              "container_width": 25
+            }
+          },
           "4903894f-f5d4-4a5a-a1fc-4b3d2fc52cea": {
             "type": "menu",
             "settings": {
@@ -158,14 +167,6 @@
               "container_width": 20
             }
           },
-          "1494301487049": {
-            "type": "menu",
-            "settings": {
-              "show_footer_title": false,
-              "menu": "footer",
-              "container_width": 20
-            }
-          },
           "1494292487693": {
             "type": "newsletter",
             "settings": {
@@ -177,9 +178,9 @@
           }
         },
         "block_order": [
+          "30cec932-43ff-47f9-b782-b3c94b6d1da0",
           "4903894f-f5d4-4a5a-a1fc-4b3d2fc52cea",
           "7a885529-6d77-4058-8893-cb259bc18562",
-          "1494301487049",
           "1494292487693"
         ],
         "settings": {
