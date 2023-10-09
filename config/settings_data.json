@@ -145,9 +145,10 @@
           "30cec932-43ff-47f9-b782-b3c94b6d1da0": {
             "type": "custom",
             "settings": {
-              "show_footer_title": true,
-              "title": "Custom text",
-              "text": "<p>Add your own custom text here.<\/p>",
+              "show_footer_title": false,
+              "title": "DUBCART",
+              "image": "shopify:\/\/shop_images\/logo-f.png",
+              "text": "",
               "container_width": 25
             }
           },
