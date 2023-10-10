@@ -1031,13 +1031,7 @@ lazySizesConfig.expFactor = 4;
     return deferred;
   }
   
- 
-  
-  window.onYouTubeIframeAPIReady = function() {
-    theme.config.youTubeReady = true;
-    document.dispatchEvent(new CustomEvent('youTubeReady'));
-  }
-  
+
   /*============================================================================
     YouTube SDK method
     Parameters:
