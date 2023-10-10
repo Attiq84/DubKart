@@ -217,30 +217,6 @@
         "view_all": false,
         "divider": false
       }
-    },
-    "0bd06998-a68a-4189-9697-a3fe457a4028": {
-      "type": "hero-video",
-      "settings": {
-        "title": "Bring your\nbrand to life.",
-        "title_size": 80,
-        "subheading": "Seamless hero videos",
-        "link_text": "Optional button",
-        "link": "",
-        "color_accent": "rgba(0,0,0,0)",
-        "text_align": "vertical-center horizontal-center",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "overlay_opacity": 0,
-        "section_height": "650px",
-        "mobile_height": "auto"
-      }
-    },
-    "e384b15a-d64b-4663-add3-6289f178245a": {
-      "type": "featured-video",
-      "settings": {
-        "title": "",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "divider": false
-      }
     }
   },
   "order": [
@@ -249,8 +225,6 @@
     "promo-grid",
     "featured-collection",
     "background-image-text",
-    "11980fc9-dc95-4f08-9d7e-edfe789a5c79",
-    "0bd06998-a68a-4189-9697-a3fe457a4028",
-    "e384b15a-d64b-4663-add3-6289f178245a"
+    "11980fc9-dc95-4f08-9d7e-edfe789a5c79"
   ]
 }
