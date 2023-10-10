@@ -5582,10 +5582,66 @@ lazySizesConfig.expFactor = 4;
     return StoreAvailability;
   })();
   
-
-
+  theme.VideoSection = (function() {
+    var selectors = {
+      videoParent: '.video-parent-section'
+    };
   
-
+    function videoSection(container) {
+      this.container = container;
+      this.sectionId = container.getAttribute('data-section-id');
+      this.namespace = '.video-' + this.sectionId;
+      this.videoObject;
+  
+      theme.initWhenVisible({
+        element: this.container,
+        callback: this.init.bind(this),
+        threshold: 500
+      });
+    }
+  
+    videoSection.prototype = Object.assign({}, videoSection.prototype, {
+      init: function() {
+        var dataDiv = this.container.querySelector('.video-div');
+        if (!dataDiv) {
+          return;
+        }
+        var type = dataDiv.dataset.type;
+  
+        switch(type) {
+          case 'youtube':
+            var videoId = dataDiv.dataset.videoId;
+            this.initYoutubeVideo(videoId);
+            break;
+          case 'vimeo':
+            var videoId = dataDiv.dataset.videoId;
+            this.initVimeoVideo(videoId);
+            break;
+          case 'mp4':
+            this.initMp4Video();
+            break;
+        }
+      },
+  
+      initYoutubeVideo: function(videoId) {
+        this.videoObject = new theme.YouTube(
+          'YouTubeVideo-' + this.sectionId,
+          {
+            videoId: videoId,
+            videoParent: selectors.videoParent
+          }
+        );
+      },
+  
+      initVimeoVideo: function(videoId) {
+        this.videoObject = new theme.VimeoPlayer(
+          'Vimeo-' + this.sectionId,
+          videoId,
+          {
+            videoParent: selectors.videoParent
+          }
+        );
+      },
   
       initMp4Video: function() {
         var mp4Video = 'Mp4Video-' + this.sectionId;
@@ -5811,7 +5867,7 @@ lazySizesConfig.expFactor = 4;
       colorSwatch: '.color-swatch--with-image',
   
       collectionGrid: '.collection-grid__wrapper',
-      // trigger: '.collapsible-trigger',
+      trigger: '.collapsible-trigger',
       sidebar: '#CollectionSidebar',
       filterSidebar: '.collapsible-content--sidebar',
       activeTagList: '.tag-list--active-tags',
