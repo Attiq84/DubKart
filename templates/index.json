@@ -217,46 +217,6 @@
         "view_all": false,
         "divider": false
       }
-    },
-    "09eba6ff-d437-432c-baaf-1e08c092c84c": {
-      "type": "logo-list",
-      "blocks": {
-        "template--21159103463707__09eba6ff-d437-432c-baaf-1e08c092c84c-logo_image-1": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "template--21159103463707__09eba6ff-d437-432c-baaf-1e08c092c84c-logo_image-2": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "template--21159103463707__09eba6ff-d437-432c-baaf-1e08c092c84c-logo_image-3": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "template--21159103463707__09eba6ff-d437-432c-baaf-1e08c092c84c-logo_image-4": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21159103463707__09eba6ff-d437-432c-baaf-1e08c092c84c-logo_image-1",
-        "template--21159103463707__09eba6ff-d437-432c-baaf-1e08c092c84c-logo_image-2",
-        "template--21159103463707__09eba6ff-d437-432c-baaf-1e08c092c84c-logo_image-3",
-        "template--21159103463707__09eba6ff-d437-432c-baaf-1e08c092c84c-logo_image-4"
-      ],
-      "settings": {
-        "title": "",
-        "logo_opacity": 76,
-        "divider": false
-      }
     }
   },
   "order": [
@@ -265,7 +225,6 @@
     "promo-grid",
     "featured-collection",
     "background-image-text",
-    "11980fc9-dc95-4f08-9d7e-edfe789a5c79",
-    "09eba6ff-d437-432c-baaf-1e08c092c84c"
+    "11980fc9-dc95-4f08-9d7e-edfe789a5c79"
   ]
 }
