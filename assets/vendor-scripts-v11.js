@@ -1,6 +1,5 @@
 /*
 @license
-Impulse by Archetype Themes (https://archetypethemes.co)
 
 Plugins:
 JavaScript Cookie       2.2.0
