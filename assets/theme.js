@@ -967,42 +967,31 @@ lazySizesConfig.expFactor = 4;
     return Variants;
   })();
   
-  // window.vimeoApiReady = function() {
-  //   theme.config.vimeoLoading = true;
+
   
-  //   // Because there's no way to check for the Vimeo API being loaded
-  //   // asynchronously, we use this terrible timeout to wait for it being ready
-  //   checkIfVimeoIsReady()
-  //     .then(function() {
-  //       theme.config.vimeoReady = true;
-  //       theme.config.vimeoLoading = false;
-  //       document.dispatchEvent(new CustomEvent('vimeoReady'));
-  //     });
+  // function checkIfVimeoIsReady() {
+  //   var wait;
+  //   var timeout;
+  
+  //   var deferred = new Promise((resolve, reject) => {
+  //     wait = setInterval(function() {
+  //       if (!Vimeo) {
+  //         return;
+  //       }
+  
+  //       clearInterval(wait);
+  //       clearTimeout(timeout);
+  //       resolve();
+  //     }, 500);
+  
+  //     timeout = setTimeout(function() {
+  //       clearInterval(wait);
+  //       reject();
+  //     }, 4000); // subjective. test up to 8 times over 4 seconds
+  //   });
+  
+  //   return deferred;
   // }
-  
-  function checkIfVimeoIsReady() {
-    var wait;
-    var timeout;
-  
-    var deferred = new Promise((resolve, reject) => {
-      wait = setInterval(function() {
-        if (!Vimeo) {
-          return;
-        }
-  
-        clearInterval(wait);
-        clearTimeout(timeout);
-        resolve();
-      }, 500);
-  
-      timeout = setTimeout(function() {
-        clearInterval(wait);
-        reject();
-      }, 4000); // subjective. test up to 8 times over 4 seconds
-    });
-  
-    return deferred;
-  }
   
 
   /*============================================================================
