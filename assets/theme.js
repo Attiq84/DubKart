@@ -969,30 +969,6 @@ lazySizesConfig.expFactor = 4;
   
 
   
-  // function checkIfVimeoIsReady() {
-  //   var wait;
-  //   var timeout;
-  
-  //   var deferred = new Promise((resolve, reject) => {
-  //     wait = setInterval(function() {
-  //       if (!Vimeo) {
-  //         return;
-  //       }
-  
-  //       clearInterval(wait);
-  //       clearTimeout(timeout);
-  //       resolve();
-  //     }, 500);
-  
-  //     timeout = setTimeout(function() {
-  //       clearInterval(wait);
-  //       reject();
-  //     }, 4000); // subjective. test up to 8 times over 4 seconds
-  //   });
-  
-  //   return deferred;
-  // }
-  
 
   /*============================================================================
     YouTube SDK method
