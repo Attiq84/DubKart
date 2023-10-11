@@ -22,13 +22,6 @@
             "color_swatches": false
           }
         },
-        "sales_point": {
-          "type": "sales_point",
-          "settings": {
-            "icon": "globe",
-            "text": "Free worldwide shipping"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -39,7 +32,7 @@
         "description": {
           "type": "description",
           "settings": {
-            "is_tab": false
+            "is_tab": true
           }
         },
         "tab": {
@@ -62,7 +55,6 @@
         "price",
         "separator",
         "variant_picker",
-        "sales_point",
         "buy_buttons",
         "description",
         "tab",
