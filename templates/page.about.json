@@ -2,7 +2,27 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "07babb15-bdf8-405d-b44f-804673617804": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21159103824155__07babb15-bdf8-405d-b44f-804673617804-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "ABOUT US"
+          }
+        }
+      },
+      "block_order": [
+        "template--21159103824155__07babb15-bdf8-405d-b44f-804673617804-heading-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
       }
     },
     "8cbac3ac-6a83-4424-b4d8-614201a4a186": {
@@ -88,6 +108,7 @@
   },
   "order": [
     "main",
+    "07babb15-bdf8-405d-b44f-804673617804",
     "8cbac3ac-6a83-4424-b4d8-614201a4a186",
     "7e2e569b-3974-416e-957b-44c0681ff3eb",
     "732560f5-77c0-4300-bf5b-e30fedb1b42a",
