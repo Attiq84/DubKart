@@ -75,7 +75,7 @@
           "type": "tab",
           "settings": {
             "title": "Shipping information",
-            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "content": "<p><strong>Free shipping terms<\/strong><\/p><p>We offer free standard shipping on orders over AED 100.<\/p><p><strong>Delivery dates<\/strong><\/p><p>We ensure to fulfil orders within 2 business days.<\/p><p><strong>Do you deliver internationally?<\/strong><\/p><p>Currently we do not offer international shipping.<\/p><p> <strong>What happens if my order is delayed?<\/strong><\/p><p>If delivery is delayed for any reason we will let you know as soon as possible and will advise you of a revised estimated date for delivery.<\/p><p>Alternatively, feel free to contact us by email and one of our customer service team members will advise you accordingly.<\/p><p>Email - support@dubkart.ae <\/p>",
             "page": ""
           }
         },
