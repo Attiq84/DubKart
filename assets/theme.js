@@ -967,18 +967,18 @@ lazySizesConfig.expFactor = 4;
     return Variants;
   })();
   
-  window.vimeoApiReady = function() {
-    theme.config.vimeoLoading = true;
+  // window.vimeoApiReady = function() {
+  //   theme.config.vimeoLoading = true;
   
-    // Because there's no way to check for the Vimeo API being loaded
-    // asynchronously, we use this terrible timeout to wait for it being ready
-    checkIfVimeoIsReady()
-      .then(function() {
-        theme.config.vimeoReady = true;
-        theme.config.vimeoLoading = false;
-        document.dispatchEvent(new CustomEvent('vimeoReady'));
-      });
-  }
+  //   // Because there's no way to check for the Vimeo API being loaded
+  //   // asynchronously, we use this terrible timeout to wait for it being ready
+  //   checkIfVimeoIsReady()
+  //     .then(function() {
+  //       theme.config.vimeoReady = true;
+  //       theme.config.vimeoLoading = false;
+  //       document.dispatchEvent(new CustomEvent('vimeoReady'));
+  //     });
+  // }
   
   function checkIfVimeoIsReady() {
     var wait;
