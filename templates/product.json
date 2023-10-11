@@ -23,6 +23,27 @@
           "settings": {
           }
         },
+        "ef03a933-7997-4bb4-ab78-d755f5f4bfe0": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "globe",
+            "text": "Free worldwide shipping"
+          }
+        },
+        "717d4ba9-833d-4a03-a5e9-b32210449bcc": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "heart",
+            "text": "Better Prices then Amazon"
+          }
+        },
+        "af687e77-a905-4226-a25d-dcbf671c945c": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "ribbon",
+            "text": "Supper Easy Free Return"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -30,6 +51,11 @@
             "variant_labels": true,
             "picker_type": "button",
             "color_swatches": false
+          }
+        },
+        "9864e3ed-a869-478a-8b02-ed85643f7c9f": {
+          "type": "quantity_selector",
+          "settings": {
           }
         },
         "buy_buttons": {
@@ -65,7 +91,11 @@
         "price",
         "d27c9848-24ff-417e-a705-13ef53bc9b56",
         "separator",
+        "ef03a933-7997-4bb4-ab78-d755f5f4bfe0",
+        "717d4ba9-833d-4a03-a5e9-b32210449bcc",
+        "af687e77-a905-4226-a25d-dcbf671c945c",
         "variant_picker",
+        "9864e3ed-a869-478a-8b02-ed85643f7c9f",
         "buy_buttons",
         "description",
         "tab",
