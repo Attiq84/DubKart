@@ -476,33 +476,6 @@ lazySizesConfig.expFactor = 4;
   
     var cloudCdn = 'https://cdn.shopify.com/shopifycloud/';
   
-    // var libraries = {
-    //   youtubeSdk: {
-    //     tagId: 'youtube-sdk',
-    //     src: 'https://www.youtube.com/iframe_api',
-    //     type: types.script
-    //   },
-    //   vimeo: {
-    //     tagId: 'vimeo-api',
-    //     src: 'https://player.vimeo.com/api/player.js',
-    //     type: types.script
-    //   },
-    //   shopifyXr: {
-    //     tagId: 'shopify-model-viewer-xr',
-    //     src: cloudCdn + 'shopify-xr-js/assets/v1.0/shopify-xr.en.js',
-    //     type: types.script
-    //   },
-    //   modelViewerUi: {
-    //     tagId: 'shopify-model-viewer-ui',
-    //     src: cloudCdn + 'model-viewer-ui/assets/v1.0/model-viewer-ui.en.js',
-    //     type: types.script
-    //   },
-    //   modelViewerUiStyles: {
-    //     tagId: 'shopify-model-viewer-ui-styles',
-    //     src: cloudCdn + 'model-viewer-ui/assets/v1.0/model-viewer-ui.css',
-    //     type: types.link
-    //   }
-    // };
   
     function load(libraryName, callback) {
       var library = libraries[libraryName];
