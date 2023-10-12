@@ -81,9 +81,16 @@
         },
         "contact": {
           "type": "contact",
+          "disabled": true,
           "settings": {
             "title": "Ask a question",
             "phone": true
+          }
+        },
+        "7d40d5e4-6a98-4318-948a-6a9a27f78423": {
+          "type": "custom",
+          "settings": {
+            "code": "Ask your Question on <a href=\"https:\/\/api.whatsapp.com\/send?phone= 00971508402275\">Whatsapp <\/a>"
           }
         }
       },
@@ -99,7 +106,8 @@
         "buy_buttons",
         "description",
         "tab",
-        "contact"
+        "contact",
+        "7d40d5e4-6a98-4318-948a-6a9a27f78423"
       ],
       "settings": {
         "sku_enable": false,
