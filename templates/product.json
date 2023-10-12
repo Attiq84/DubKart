@@ -83,7 +83,7 @@
           "type": "contact",
           "settings": {
             "title": "Ask a question",
-            "phone": false
+            "phone": true
           }
         }
       },
