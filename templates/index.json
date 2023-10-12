@@ -50,7 +50,7 @@
         "mobile_height": "100vh",
         "parallax": false,
         "style": "arrows",
-        "autoplay": false,
+        "autoplay": true,
         "autoplay_speed": 5
       }
     },
