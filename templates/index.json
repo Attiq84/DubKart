@@ -20,10 +20,29 @@
             "overlay_opacity": 20,
             "focal_point": "center center"
           }
+        },
+        "ef8d2ce9-5296-43db-ab23-e9bca79b4d08": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Health\nBeauty",
+            "title_size": 80,
+            "subheading": "Buy With Confidence",
+            "link": "shopify:\/\/collections\/health-beauty-1",
+            "link_text": "Shop All",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Health-_-Beauty--963-X-725_0c940452-ac60-4062-a70a-7219dcaca47d.jpg",
+            "overlay_opacity": 20,
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
-        "slideshow-0"
+        "slideshow-0",
+        "ef8d2ce9-5296-43db-ab23-e9bca79b4d08"
       ],
       "settings": {
         "section_height": "100vh",
