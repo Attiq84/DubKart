@@ -181,8 +181,8 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Container & Storage",
-        "home_featured_products": "containers-storage",
+        "title": "Best Sellers",
+        "home_featured_products": "best-seller",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": false,
@@ -209,8 +209,8 @@
     "11980fc9-dc95-4f08-9d7e-edfe789a5c79": {
       "type": "featured-collection",
       "settings": {
-        "title": "Bar Essentials",
-        "home_featured_products": "kitchen-dining-bar",
+        "title": "New Arrivals",
+        "home_featured_products": "new-arrivals",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": false,
