@@ -14,10 +14,25 @@
           "settings": {
             "title": "ABOUT US"
           }
+        },
+        "852a99ed-f089-41e3-ab74-08fbe0a6efe6": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>At DubKart, our goal is to offer you quality products, at prices that are way lesser than big e-commerce websites. We ship quickly and in most cases we assure you that you'll receive your order on the very next day! We've been in the e-commerce business since 2014 and customer happiness stays at the bottom of our hearts. Rest assured, we won't disappoint you!<\/p>"
+          }
+        },
+        "5f9df315-96a5-4f11-9e3b-db1fb19dba5f": {
+          "type": "heading",
+          "settings": {
+            "title": "Our Crew"
+          }
         }
       },
       "block_order": [
-        "template--21159103824155__07babb15-bdf8-405d-b44f-804673617804-heading-1"
+        "template--21159103824155__07babb15-bdf8-405d-b44f-804673617804-heading-1",
+        "852a99ed-f089-41e3-ab74-08fbe0a6efe6",
+        "5f9df315-96a5-4f11-9e3b-db1fb19dba5f"
       ],
       "settings": {
         "align_text": "center",
