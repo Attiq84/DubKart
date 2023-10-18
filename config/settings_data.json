@@ -153,7 +153,7 @@
               "show_footer_title": true,
               "title": "DUBKART",
               "text": "<h5>Brought to you by Siyana Middle East FZ-LLC<\/h5>\n<p>A4-819, Building no. A4, Al Hamra Industrial Zone-FZ, RAK, United Arab Emirates<\/p>\nCall: <a href=\"tel:123-456-7890\">123-456-7890<\/a><br>\n<br>\n<a href=\"https:\/\/api.whatsapp.com\/send?phone=15551234567\">Ping me on WhatsApp<\/a>",
-              "container_width": 25
+              "container_width": 37
             }
           },
           "4903894f-f5d4-4a5a-a1fc-4b3d2fc52cea": {
@@ -161,7 +161,7 @@
             "settings": {
               "show_footer_title": true,
               "menu": "about",
-              "container_width": 20
+              "container_width": 18
             }
           },
           "7a885529-6d77-4058-8893-cb259bc18562": {
@@ -169,7 +169,7 @@
             "settings": {
               "show_footer_title": true,
               "menu": "policies",
-              "container_width": 20
+              "container_width": 18
             }
           },
           "1494292487693": {
@@ -178,7 +178,7 @@
               "show_footer_title": true,
               "title": "Sign up and save",
               "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
-              "container_width": 33
+              "container_width": 25
             }
           }
         },
