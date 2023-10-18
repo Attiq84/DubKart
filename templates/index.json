@@ -39,11 +39,84 @@
             "overlay_opacity": 20,
             "focal_point": "center center"
           }
+        },
+        "602d4aad-5ef1-4449-9cc7-d44ce61263f9": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Car Care &\nProtection",
+            "title_size": 80,
+            "subheading": "",
+            "link": "shopify:\/\/collections\/car-care-protection",
+            "link_text": "Shop Now",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Car_Care_Protection.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "e294b0d9-466a-44e0-b1c4-18d8160abab8": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Two line\ntitle slide.",
+            "title_size": 80,
+            "subheading": "And optional subtext",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "bade4706-2b1e-48d5-b8a5-50d12d79918a": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Two line\ntitle slide.",
+            "title_size": 80,
+            "subheading": "And optional subtext",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "41593480-24c0-461b-883f-1eaa33444a7a": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Two line\ntitle slide.",
+            "title_size": 80,
+            "subheading": "And optional subtext",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
         "slideshow-0",
-        "ef8d2ce9-5296-43db-ab23-e9bca79b4d08"
+        "ef8d2ce9-5296-43db-ab23-e9bca79b4d08",
+        "602d4aad-5ef1-4449-9cc7-d44ce61263f9",
+        "e294b0d9-466a-44e0-b1c4-18d8160abab8",
+        "bade4706-2b1e-48d5-b8a5-50d12d79918a",
+        "41593480-24c0-461b-883f-1eaa33444a7a"
       ],
       "settings": {
         "section_height": "100vh",
