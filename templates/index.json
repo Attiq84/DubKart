@@ -117,7 +117,7 @@
         "featured-collections-0": {
           "type": "collection",
           "settings": {
-            "collection": "lights-lighting",
+            "collection": "home-kitchen",
             "title": "",
             "focal_point": "center center"
           }
@@ -125,7 +125,7 @@
         "featured-collections-1": {
           "type": "collection",
           "settings": {
-            "collection": "personal-organizers",
+            "collection": "toys-games-1",
             "title": "",
             "focal_point": "center center"
           }
@@ -133,7 +133,7 @@
         "featured-collections-3": {
           "type": "collection",
           "settings": {
-            "collection": "baby-and-toddler-toys",
+            "collection": "auto-accessories-1",
             "title": "",
             "focal_point": "center center"
           }
@@ -141,7 +141,7 @@
         "c2c4fd4f-b575-4979-8cc0-c9e1927ecd4d": {
           "type": "collection",
           "settings": {
-            "collection": "bags-handbags",
+            "collection": "kitchen",
             "title": "",
             "focal_point": "center center"
           }
@@ -149,7 +149,7 @@
         "6f836d51-f9e3-4aab-8849-3b04fa91458b": {
           "type": "collection",
           "settings": {
-            "collection": "wallets",
+            "collection": "arts-crafts-party-supplies",
             "title": "",
             "focal_point": "center center"
           }
