@@ -47,7 +47,7 @@
             "title": "Home & \nGarden",
             "title_size": 80,
             "subheading": "",
-            "link": "shopify:\/\/collections\/home-kitchen",
+            "link": "shopify:\/\/collections\/home-garden",
             "link_text": "Shop NOw",
             "link_2": "",
             "link_text_2": "",
@@ -117,7 +117,7 @@
         "featured-collections-0": {
           "type": "collection",
           "settings": {
-            "collection": "home-kitchen",
+            "collection": "home-garden",
             "title": "",
             "focal_point": "center center"
           }
