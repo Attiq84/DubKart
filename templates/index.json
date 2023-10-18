@@ -80,15 +80,16 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Two line\ntitle slide.",
+            "title": "Kitchen",
             "title_size": 80,
-            "subheading": "And optional subtext",
-            "link": "",
-            "link_text": "Optional button",
+            "subheading": "",
+            "link": "shopify:\/\/collections\/kitchen",
+            "link_text": "Kitchen",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
+            "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/diy-birthday-decoration-ideas-1574358695.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
