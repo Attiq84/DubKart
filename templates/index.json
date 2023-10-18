@@ -10,7 +10,7 @@
             "title": "Smart Shopping\nQuality Savings!",
             "title_size": 60,
             "subheading": "Buy With Confidence",
-            "link": "shopify:\/\/collections\/toys-games-1",
+            "link": "shopify:\/\/collections\/toys-games",
             "link_text": "Shop this",
             "link_2": "shopify:\/\/collections",
             "link_text_2": "Shop all",
@@ -125,7 +125,7 @@
         "featured-collections-1": {
           "type": "collection",
           "settings": {
-            "collection": "toys-games-1",
+            "collection": "toys-games",
             "title": "",
             "focal_point": "center center"
           }
