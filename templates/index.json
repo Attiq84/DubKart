@@ -173,7 +173,7 @@
         "64462a33-7e1a-4f0f-b859-fc9ffd36d342": {
           "type": "collection",
           "settings": {
-            "collection": "pet-supplies",
+            "collection": "baby-kids-essentials",
             "title": "",
             "focal_point": "center center"
           }
@@ -273,8 +273,8 @@
         "subtitle": "Impressive",
         "title": "Sports & Outdoor",
         "text": "<p>Elevate your game with our premium sports accessories. Whether you're a seasoned athlete or a weekend warrior, our selection of gear, from high-performance equipment to stylish apparel, will help you perform at your best and look good doing it. Get ready to conquer the field, court, or track with confidence.<\/p>",
-        "button_label": "",
-        "button_link": "shopify:\/\/collections\/all",
+        "button_label": "Shop Now",
+        "button_link": "shopify:\/\/collections\/sports-outdoors",
         "image": "shopify:\/\/shop_images\/iStock-949190736-1200x800_1.jpg",
         "focal_point": "80% 0",
         "layout": "left",
