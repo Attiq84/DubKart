@@ -262,8 +262,8 @@
         "home_featured_products": "best-seller",
         "per_row": 4,
         "rows": 1,
-        "mobile_scrollable": false,
-        "view_all": false,
+        "mobile_scrollable": true,
+        "view_all": true,
         "divider": false
       }
     },
@@ -290,8 +290,8 @@
         "home_featured_products": "new-arrivals",
         "per_row": 4,
         "rows": 1,
-        "mobile_scrollable": false,
-        "view_all": false,
+        "mobile_scrollable": true,
+        "view_all": true,
         "divider": false
       }
     }
