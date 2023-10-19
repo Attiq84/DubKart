@@ -34,14 +34,14 @@
           "type": "sales_point",
           "settings": {
             "icon": "heart",
-            "text": "Better Prices then Amazon"
+            "text": "Better Prices then Amazon & Noon!"
           }
         },
         "af687e77-a905-4226-a25d-dcbf671c945c": {
           "type": "sales_point",
           "settings": {
             "icon": "ribbon",
-            "text": "Hazzle free returns"
+            "text": "Hassle free returns & refunds"
           }
         },
         "variant_picker": {
@@ -75,7 +75,7 @@
           "type": "tab",
           "settings": {
             "title": "Shipping information",
-            "content": "<p><strong>Free shipping terms<\/strong><\/p><p>We offer free standard shipping on orders over AED 100.<\/p><p><strong>Delivery dates<\/strong><\/p><p>We ensure to fulfil orders within 2 business days.<\/p><p><strong>Do you deliver internationally?<\/strong><\/p><p>Currently we do not offer international shipping.<\/p><p> <strong>What happens if my order is delayed?<\/strong><\/p><p>If delivery is delayed for any reason we will let you know as soon as possible and will advise you of a revised estimated date for delivery.<\/p><p>Alternatively, feel free to contact us by email and one of our customer service team members will advise you accordingly.<\/p><p>Email - support@dubkart.ae <\/p>",
+            "content": "<p><strong>Free shipping terms<\/strong><\/p><p>We offer free standard shipping on orders over AED 100.<\/p><p><strong>Delivery time<\/strong><\/p><p>In most cases, you'll receive your order on the same or next day if your address is in Dubai, Sharjah & Ajman. For other Emirates, it will be a maximum of 2 days.<\/p><p><strong>What happens if my order is delayed?<\/strong><\/p><p>If delivery is delayed for any reason we will let you know as soon as possible and will advise you of a revised estimated date for delivery.<\/p><p>Alternatively, feel free to contact us by WhatsApp (+971508402275) or email (support@dubkart.ae) and one of our team members will advise you accordingly! <\/p>",
             "page": ""
           }
         },
