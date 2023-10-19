@@ -130,18 +130,18 @@
             "focal_point": "center center"
           }
         },
-        "featured-collections-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "auto-accessories-1",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
         "c2c4fd4f-b575-4979-8cc0-c9e1927ecd4d": {
           "type": "collection",
           "settings": {
             "collection": "kitchen",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "64462a33-7e1a-4f0f-b859-fc9ffd36d342": {
+          "type": "collection",
+          "settings": {
+            "collection": "baby-kids-essentials",
             "title": "",
             "focal_point": "center center"
           }
@@ -170,10 +170,10 @@
             "focal_point": "center center"
           }
         },
-        "64462a33-7e1a-4f0f-b859-fc9ffd36d342": {
+        "featured-collections-3": {
           "type": "collection",
           "settings": {
-            "collection": "baby-kids-essentials",
+            "collection": "auto-accessories-1",
             "title": "",
             "focal_point": "center center"
           }
@@ -182,12 +182,12 @@
       "block_order": [
         "featured-collections-0",
         "featured-collections-1",
-        "featured-collections-3",
         "c2c4fd4f-b575-4979-8cc0-c9e1927ecd4d",
+        "64462a33-7e1a-4f0f-b859-fc9ffd36d342",
         "6f836d51-f9e3-4aab-8849-3b04fa91458b",
         "93e7e771-7c75-4213-b3b6-eac4b1f0ba6c",
         "7cbfa37e-c751-4298-b0ec-7803bfa24818",
-        "64462a33-7e1a-4f0f-b859-fc9ffd36d342"
+        "featured-collections-3"
       ],
       "settings": {
         "title": "Shop by category",
@@ -204,7 +204,7 @@
           "settings": {
             "subheading": "Limited time",
             "heading": "PET CARE",
-            "textarea": "",
+            "textarea": "All the care and love that \nyour furry friends deserve!",
             "cta_text1": "Shop This",
             "cta_link1": "shopify:\/\/collections\/pet-supplies",
             "cta_text2": "",
