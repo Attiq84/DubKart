@@ -154,18 +154,18 @@
             "focal_point": "center center"
           }
         },
-        "93e7e771-7c75-4213-b3b6-eac4b1f0ba6c": {
-          "type": "collection",
-          "settings": {
-            "collection": "fashion-1",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
         "7cbfa37e-c751-4298-b0ec-7803bfa24818": {
           "type": "collection",
           "settings": {
             "collection": "health-beauty-1",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "93e7e771-7c75-4213-b3b6-eac4b1f0ba6c": {
+          "type": "collection",
+          "settings": {
+            "collection": "fashion-1",
             "title": "",
             "focal_point": "center center"
           }
@@ -185,8 +185,8 @@
         "c2c4fd4f-b575-4979-8cc0-c9e1927ecd4d",
         "64462a33-7e1a-4f0f-b859-fc9ffd36d342",
         "6f836d51-f9e3-4aab-8849-3b04fa91458b",
-        "93e7e771-7c75-4213-b3b6-eac4b1f0ba6c",
         "7cbfa37e-c751-4298-b0ec-7803bfa24818",
+        "93e7e771-7c75-4213-b3b6-eac4b1f0ba6c",
         "featured-collections-3"
       ],
       "settings": {
