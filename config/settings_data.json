@@ -137,7 +137,7 @@
           "sticky_collection": false,
           "announcement_compact": true,
           "announcement_above_header": true,
-          "toolbar_menu": "policies",
+          "toolbar_menu": "top-policies",
           "toolbar_social": true,
           "show_locale_selector": true,
           "show_currency_selector": true,
