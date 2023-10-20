@@ -19,7 +19,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>At DubKart, our goal is to offer you quality products, at prices that are way lesser than big e-commerce websites. We ship quickly and in most cases we assure you that you'll receive your order on the very next day! We've been in the e-commerce business since 2014 and customer happiness stays at the bottom of our hearts. Rest assured, we won't disappoint you!<\/p>"
+            "text": "<p>At DubKart, our goal is to offer you quality products at prices that are way lesser than big e-commerce websites. We ship quickly and in most cases we assure you that you'll receive your order on the very next day! We've been in the e-commerce business since 2014 and customer happiness stays at the bottom of our hearts. Rest assured, we won't disappoint you!<\/p>"
           }
         },
         "5f9df315-96a5-4f11-9e3b-db1fb19dba5f": {
@@ -63,7 +63,7 @@
         "image_width": 350,
         "subtitle": "",
         "title": "Faaz",
-        "text": "<p>The system dude, sits on the computer all day, and hopes to get an order! He's a no nonsense person, talks only a little bit but gets a lot of work done! He's the backbone of our business!<\/p>",
+        "text": "<p>Our resident e-commerce expert, sits on the computer all day, and hopes to get an order from you! He's a no nonsense person, talks only a little bit but gets a lot of work done! He's the backbone of our business!<\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -79,7 +79,7 @@
         "image_width": 350,
         "subtitle": "",
         "title": "Ramu",
-        "text": "<p>Newly joined and out to achieve, a simple yet effective chap. When our goods arrive, which we hope to sell, he's the one that does all the quality checks so that you are never disappointed!<\/p>",
+        "text": "<p>Newly joined and out to achieve, he's simple, yet effective. When our goods arrive, which we hope to sell, he's the one that does all the quality checks so that you are never disappointed!<\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -95,7 +95,7 @@
         "image_width": 350,
         "subtitle": "",
         "title": "Veer",
-        "text": "<p>Aspiring young dude, does every bit of operation within the company you can image. If an order has reaches you, this man has most likely packaged it to perfection! He really puts his heart into it!<\/p>",
+        "text": "<p>Aspiring young gentleman, does every bit of operation within the company you can image. If an order has reaches you, this man has most likely packaged it to perfection! He really puts his heart into it!<\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
