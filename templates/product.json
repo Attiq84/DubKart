@@ -92,6 +92,11 @@
           "settings": {
             "code": "Ask your Question on <a href=\"https:\/\/api.whatsapp.com\/send?phone= +971508402275\">Whatsapp <\/a>"
           }
+        },
+        "9f08a308-ac35-426c-b81f-2e1f0a60d9e2": {
+          "type": "share",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -107,7 +112,8 @@
         "description",
         "tab",
         "contact",
-        "7d40d5e4-6a98-4318-948a-6a9a27f78423"
+        "7d40d5e4-6a98-4318-948a-6a9a27f78423",
+        "9f08a308-ac35-426c-b81f-2e1f0a60d9e2"
       ],
       "settings": {
         "sku_enable": false,
