@@ -95,12 +95,12 @@
         },
         "9f08a308-ac35-426c-b81f-2e1f0a60d9e2": {
           "type": "share",
-          "disabled": true,
           "settings": {
           }
         },
         "2f4e3429-5159-4bea-8a3c-c3e4de7ba34c": {
           "type": "custom",
+          "disabled": true,
           "settings": {
             "code": "<a href=\"whatsapp:\/\/send?text=Check out this {{ shop.url | escape }}{{ product.url | escape }}&amp;media={{ share_image | img_url: '1024x1024' }}&amp;description={{ share_title | url_param_escape }}\" class=\"wshare\">Share on Whatsapp <\/a>"
           }
