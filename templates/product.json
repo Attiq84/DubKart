@@ -18,6 +18,12 @@
             "stars_text_empty": "No reviews"
           }
         },
+        "2f4e3429-5159-4bea-8a3c-c3e4de7ba34c": {
+          "type": "custom",
+          "settings": {
+            "code": "<a href=\"whatsapp:\/\/send?text=Check out this {{ shop.url | escape }}{{ product.url | escape }}&amp;media={{ share_image | img_url: '1024x1024' }}&amp;description={{ share_title | url_param_escape }}\" class=\"wshare\">Share on Whatsapp <\/a>"
+          }
+        },
         "separator": {
           "type": "separator",
           "settings": {
@@ -93,15 +99,9 @@
             "code": "Ask your Question on <a href=\"https:\/\/api.whatsapp.com\/send?phone= +971508402275\">Whatsapp <\/a>"
           }
         },
-        "2f4e3429-5159-4bea-8a3c-c3e4de7ba34c": {
-          "type": "custom",
-          "disabled": true,
-          "settings": {
-            "code": "<a href=\"whatsapp:\/\/send?text=Check out this {{ shop.url | escape }}{{ product.url | escape }}&amp;media={{ share_image | img_url: '1024x1024' }}&amp;description={{ share_title | url_param_escape }}\" class=\"wshare\">Share on Whatsapp <\/a>"
-          }
-        },
         "9f08a308-ac35-426c-b81f-2e1f0a60d9e2": {
           "type": "share",
+          "disabled": true,
           "settings": {
           }
         }
@@ -109,6 +109,7 @@
       "block_order": [
         "price",
         "d27c9848-24ff-417e-a705-13ef53bc9b56",
+        "2f4e3429-5159-4bea-8a3c-c3e4de7ba34c",
         "separator",
         "ef03a933-7997-4bb4-ab78-d755f5f4bfe0",
         "717d4ba9-833d-4a03-a5e9-b32210449bcc",
@@ -120,7 +121,6 @@
         "tab",
         "contact",
         "7d40d5e4-6a98-4318-948a-6a9a27f78423",
-        "2f4e3429-5159-4bea-8a3c-c3e4de7ba34c",
         "9f08a308-ac35-426c-b81f-2e1f0a60d9e2"
       ],
       "settings": {
