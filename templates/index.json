@@ -148,6 +148,7 @@
         },
         "6f836d51-f9e3-4aab-8849-3b04fa91458b": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "arts-crafts",
             "title": "",
@@ -177,6 +178,14 @@
             "title": "",
             "focal_point": "center center"
           }
+        },
+        "61448055-f9f7-4fe7-94e0-6b71add5bb90": {
+          "type": "collection",
+          "settings": {
+            "collection": "sale",
+            "title": "",
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
@@ -187,7 +196,8 @@
         "6f836d51-f9e3-4aab-8849-3b04fa91458b",
         "7cbfa37e-c751-4298-b0ec-7803bfa24818",
         "93e7e771-7c75-4213-b3b6-eac4b1f0ba6c",
-        "featured-collections-3"
+        "featured-collections-3",
+        "61448055-f9f7-4fe7-94e0-6b71add5bb90"
       ],
       "settings": {
         "title": "Shop by category",
