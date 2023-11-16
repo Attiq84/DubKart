@@ -40,24 +40,6 @@
             "focal_point": "center center"
           }
         },
-        "ef8d2ce9-5296-43db-ab23-e9bca79b4d08": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "Health & \nBeauty",
-            "title_size": 80,
-            "subheading": "Glow, Radiate & Transform!",
-            "link": "shopify:\/\/collections\/health-beauty-1",
-            "link_text": "Shop Now",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#ffffff",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Health-_-Beauty--963-X-725_0c940452-ac60-4062-a70a-7219dcaca47d.jpg",
-            "overlay_opacity": 20,
-            "focal_point": "center center"
-          }
-        },
         "e294b0d9-466a-44e0-b1c4-18d8160abab8": {
           "type": "image",
           "settings": {
@@ -72,25 +54,6 @@
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/shoe-organizer-ideas-for-small-closet.webp",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        },
-        "8c4a3fd9-a7ea-4664-b07f-318382a6359f": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "top_subheading": "",
-            "title": "Car Care \n& Protection",
-            "title_size": 80,
-            "subheading": "Must Haves For Your Cars & Bikes!",
-            "link": "shopify:\/\/collections\/car-care-protection",
-            "link_text": "Shop Now",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#ffffff",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Car_Care_Protection.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -112,15 +75,52 @@
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
+        },
+        "ef8d2ce9-5296-43db-ab23-e9bca79b4d08": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Health & \nBeauty",
+            "title_size": 80,
+            "subheading": "Glow, Radiate & Transform!",
+            "link": "shopify:\/\/collections\/health-beauty-1",
+            "link_text": "Shop Now",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Health-_-Beauty--963-X-725_0c940452-ac60-4062-a70a-7219dcaca47d.jpg",
+            "overlay_opacity": 20,
+            "focal_point": "center center"
+          }
+        },
+        "8c4a3fd9-a7ea-4664-b07f-318382a6359f": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "Car Care \n& Protection",
+            "title_size": 80,
+            "subheading": "Must Haves For Your Cars & Bikes!",
+            "link": "shopify:\/\/collections\/car-care-protection",
+            "link_text": "Shop Now",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Car_Care_Protection.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
         "602d4aad-5ef1-4449-9cc7-d44ce61263f9",
         "slideshow-0",
-        "ef8d2ce9-5296-43db-ab23-e9bca79b4d08",
         "e294b0d9-466a-44e0-b1c4-18d8160abab8",
-        "8c4a3fd9-a7ea-4664-b07f-318382a6359f",
-        "bade4706-2b1e-48d5-b8a5-50d12d79918a"
+        "bade4706-2b1e-48d5-b8a5-50d12d79918a",
+        "ef8d2ce9-5296-43db-ab23-e9bca79b4d08",
+        "8c4a3fd9-a7ea-4664-b07f-318382a6359f"
       ],
       "settings": {
         "section_height": "650px",
