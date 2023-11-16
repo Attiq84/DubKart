@@ -5,7 +5,6 @@
       "blocks": {
         "602d4aad-5ef1-4449-9cc7-d44ce61263f9": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "",
@@ -17,7 +16,7 @@
             "link_text_2": "",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/RAINBOW-FRIDAY_3d2347fe-6f94-43ea-804a-1e92d9239cef.webp",
+            "image": "shopify:\/\/shop_images\/RAINBOW-FRIDAY-2.webp",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
