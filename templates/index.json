@@ -289,7 +289,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Best Sellers",
-        "home_featured_products": "best-seller",
+        "home_featured_products": "sale",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
