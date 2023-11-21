@@ -131,6 +131,18 @@
         "autoplay_speed": 5
       }
     },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Rainbow Friday deals{{ section.settings.home_featured_products.title }}",
+        "home_featured_products": "sale",
+        "per_row": 5,
+        "rows": 2,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "featured-collections": {
       "type": "featured-collections",
       "blocks": {
@@ -285,18 +297,6 @@
         "space_below": false
       }
     },
-    "featured-collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Rainbow Friday deals{{ section.settings.home_featured_products.title }}",
-        "home_featured_products": "sale",
-        "per_row": 5,
-        "rows": 2,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
     "background-image-text": {
       "type": "background-image-text",
       "settings": {
@@ -328,9 +328,9 @@
   },
   "order": [
     "slideshow",
+    "featured-collection",
     "featured-collections",
     "promo-grid",
-    "featured-collection",
     "background-image-text",
     "11980fc9-dc95-4f08-9d7e-edfe789a5c79"
   ]
