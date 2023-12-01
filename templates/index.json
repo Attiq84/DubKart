@@ -146,14 +146,6 @@
     "featured-collections": {
       "type": "featured-collections",
       "blocks": {
-        "featured-collections-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "home-garden",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
         "featured-collections-1": {
           "type": "collection",
           "settings": {
@@ -218,10 +210,17 @@
             "title": "",
             "focal_point": "center center"
           }
+        },
+        "8764fa69-1d32-471b-bc11-57375663f749": {
+          "type": "collection",
+          "settings": {
+            "collection": "home-garden-1",
+            "title": "",
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
-        "featured-collections-0",
         "featured-collections-1",
         "c2c4fd4f-b575-4979-8cc0-c9e1927ecd4d",
         "64462a33-7e1a-4f0f-b859-fc9ffd36d342",
@@ -229,7 +228,8 @@
         "7cbfa37e-c751-4298-b0ec-7803bfa24818",
         "93e7e771-7c75-4213-b3b6-eac4b1f0ba6c",
         "featured-collections-3",
-        "61448055-f9f7-4fe7-94e0-6b71add5bb90"
+        "61448055-f9f7-4fe7-94e0-6b71add5bb90",
+        "8764fa69-1d32-471b-bc11-57375663f749"
       ],
       "settings": {
         "title": "Shop by category",
