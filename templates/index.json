@@ -218,6 +218,14 @@
             "title": "",
             "focal_point": "center center"
           }
+        },
+        "3e7c2776-6626-42af-82bb-5201438f4421": {
+          "type": "collection",
+          "settings": {
+            "collection": "electronic-accessories-1",
+            "title": "Electronic accessories",
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
@@ -229,7 +237,8 @@
         "93e7e771-7c75-4213-b3b6-eac4b1f0ba6c",
         "featured-collections-3",
         "61448055-f9f7-4fe7-94e0-6b71add5bb90",
-        "8764fa69-1d32-471b-bc11-57375663f749"
+        "8764fa69-1d32-471b-bc11-57375663f749",
+        "3e7c2776-6626-42af-82bb-5201438f4421"
       ],
       "settings": {
         "title": "Shop by category",
