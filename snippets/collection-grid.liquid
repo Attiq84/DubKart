@@ -11,26 +11,12 @@ Snippet Arguments
 - quick_shop_enable
 {% endcomment %}
 
-{% liquid
-  if collection.products
-    assign count = collection.products_count
-    assign count_label = 'collections.general.items_with_count'
-  endif
-
-  if collection.results
-    assign count = collection.results_count
-    assign count_label = 'general.search.result_count'
-  endif
-
-  assign filters = collection.filters
-  assign sort_by = collection.sort_by
-  assign default_sort_by = collection.default_sort_by
-  assign sort_options = collection.sort_options
-  assign current_filter_size = 0
-
-  for filter in filters
-    assign current_filter_size = current_filter_size | plus: filter.active_values.size
-  endfor
+{%- liquid
+  assign filtered_products = items | where: 'object_type', 'product'
+  assign filtered_products = filtered_products | where: 'variants.first.inventory_quantity', '>', 0
+  assign filtered_search_results = items | where: 'object_type', 'search-result'
+  assign filtered_search_results = filtered_search_results | where: 'available', true
+  assign count = filtered_products.size | plus: filtered_search_results.size
 %}
 
 <div class="collection-grid__wrapper">
