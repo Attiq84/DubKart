@@ -50,11 +50,6 @@
               mobile_flush_grid: section.settings.mobile_flush_grid
               quick_shop_enable: settings.quick_shop_enable
             %}
-          {% for item in search.results %}
-{% if item.object_type == 'product' and item.available == true %}
-...
-{% endif %}
-{% endfor %}
             {%- if paginate.pages > 1 -%}
               {%- render 'pagination', paginate: paginate -%}
             {%- endif -%}
