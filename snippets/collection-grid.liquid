@@ -1,17 +1,17 @@
-{% comment %}
-Snippet Arguments
-- collection: Liquid 'collection' or 'search' object
-- items: Paginated 'collection.products' or 'search.results' list. Cannot be pulled from the the 'collection' object passed in above
-- enable_sidebar: boolean
-- filter_style: 'sidebar' or 'drawer'
-- enable_sort: boolean
-- enable_collection_count
-- per_row
-- mobile_flush_grid
-- quick_shop_enable
-{% endcomment %}
+{%- comment %}
+  Snippet Arguments
+  - collection: Liquid 'collection' or 'search' object
+  - items: Paginated 'collection.products' or 'search.results' list. Cannot be pulled from the 'collection' object passed in above
+  - enable_sidebar: boolean
+  - filter_style: 'sidebar' or 'drawer'
+  - enable_sort: boolean
+  - enable_collection_count
+  - per_row
+  - mobile_flush_grid
+  - quick_shop_enable
+{%- endcomment %}
 
-{% liquid
+{%- liquid
   if collection.products
     assign count = collection.products_count
     assign count_label = 'collections.general.items_with_count'
@@ -21,7 +21,6 @@ Snippet Arguments
     assign count = collection.results_count
     assign count_label = 'general.search.result_count'
   endif
-
   assign filters = collection.filters
   assign sort_by = collection.sort_by
   assign default_sort_by = collection.default_sort_by
@@ -31,7 +30,8 @@ Snippet Arguments
   for filter in filters
     assign current_filter_size = current_filter_size | plus: filter.active_values.size
   endfor
-    assign count = 0
+
+  assign count = 0
  assign filtered_products = items | where: 'object_type', 'product'
 assign filtered_products = filtered_products | where: 'variants.first.inventory_quantity', '>', 0
 assign filtered_search_results = items | where: 'object_type', 'search.result'
@@ -41,24 +41,80 @@ assign count = filtered_products.size | plus: filtered_search_results.size
 
 <div class="collection-grid__wrapper">
   <div class="collection-filter">
-    <div class="collection-filter__item collection-filter__item--drawer">
-      <button
-        type="button"
-        class="js-drawer-open-collection-filters btn btn--tertiary{% unless current_filter_size == 0 %} btn--tertiary-active{% endunless %}"
-        aria-controls="FilterDrawer">
-          <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-filter" viewBox="0 0 64 64"><path d="M48 42h10M48 42a5 5 0 1 1-5-5 5 5 0 0 1 5 5zM7 42h31M16 22H6M16 22a5 5 0 1 1 5 5 5 5 0 0 1-5-5zM57 22H26"/></svg>
-          {{ 'collections.filters.title_tags' | t }}
-          {%- if current_filter_size > 0 -%}
-              ({{ current_filter_size }})
-          {%- endif -%}
-      </button>
-    </div>
+    <!-- ... (existing filter code) ... -->
+  </div>
 
-    <div class="collection-filter__item collection-filter__item--count small--hide">
-      {%- if enable_collection_count -%}
-        {{ count_label | t: count: count }}
+  <div class="grid grid--uniform{% if mobile_flush_grid %} small--grid--flush{% endif %}"{% unless enable_collection_count %} data-scroll-to{% endunless %}>
+  {%- assign count = 0 -%}
+{%- for item in items -%}
+  {%- if item.object_type == 'product' -%}
+    {%- assign product_quantity = item.variants.first.inventory_quantity | default: 0 -%}
+    {%- if product_quantity > 0 -%}
+      {%- assign count = count | plus: 1 -%}
+    {%- endif -%}
+  {%- elsif item.object_type == 'search.result' and product.available -%}
+    {%- assign count = count | plus: 1 -%}
+  {%- endif -%}
+{%- endfor -%}
+
+<div class="collection-grid__wrapper">
+  <div class="collection-filter">
+    <!-- ... (existing filter code) ... -->
+  </div>
+
+  <div class="grid grid--uniform{% if mobile_flush_grid %} small--grid--flush{% endif %}"{% unless enable_collection_count %} data-scroll-to{% endunless %}>
+   {%- assign count = 0 -%}
+{%- for item in items -%}
+ {%- assign product_quantity = item.variants.first.inventory_quantity | default: 0 -%}
+{%- if item.object_type == 'product' and product_quantity > 0 -%}
+
+    {%- assign count = count | plus: 1 -%}
+  {%- elsif item.object_type == 'search.result' and product.available -%}
+    {%- assign count = count | plus: 1 -%}
+  {%- endif -%}
+{%- endfor -%}
+
+<!-- Debugging line to check the count -->
+
+
+<div class="collection-grid__wrapper">
+  <div class="collection-filter">
+    <!-- ... (existing filter code) ... -->
+  </div>
+
+  <div class="grid grid--uniform{% if mobile_flush_grid %} small--grid--flush{% endif %}"{% unless enable_collection_count %} data-scroll-to{% endunless %}>
+    {%- for item in items -%}
+      {%- if item.object_type == 'product' -%}
+        {%- assign product_quantity = item.variants.first.inventory_quantity | default: 0 -%}
+        {%- if product_quantity > 0 -%}
+          <h2>{{ item.title }}</h2>
+          <p>Price: {{ item.variants.first.price }}</p>
+          <!-- Add more code to display other product properties as needed -->
+          {%- render 'product-grid-item',
+            product: item,
+            per_row: per_row,
+            quick_shop_enable: quick_shop_enable
+          -%}
+        {%- endif -%}
+      {%- elsif item.object_type == 'search.result' and product.available -%}
+        <!-- Handle search results with available quantity -->
+        <h2>{{ item.title }}</h2>
+        <p>Available: {{ product.available }}</p>
+        <!-- Add more code to display other search result properties as needed -->
+        {%- render 'search-grid-item',
+          item: item,
+          per_row: per_row
+        %}
       {%- endif -%}
-    </div>
+    {%- endfor -%}
+  </div>
+</div>
+
+<div class="collection-filter__item collection-filter__item--count small--hide">
+  {%- if enable_collection_count -%}
+    {{ count_label | t: count: count }}
+  {%- endif -%}
+</div>
 
     <div class="collection-filter__item collection-filter__item--sort">
         <div class="collection-filter__sort-container">
@@ -75,33 +131,28 @@ assign count = filtered_products.size | plus: filtered_search_results.size
   </div>
 
   <div class="grid grid--uniform{% if mobile_flush_grid %} small--grid--flush{% endif %}"{% unless enable_collection_count %} data-scroll-to{% endunless %}>
-     <!-- Debugging line to check the count -->
-    <p>Debug: Count = {{ count }}</p>
-    {%- for item in items -%}
-      {%- assign product_quantity = item.variants.first.inventory_quantity | default: 0 -%}
-      {%- if item.object_type == 'product' and product_quantity > 0 -%}
-
-        <h2>{{ item.title }}</h2>
-        <p>Price: {{ item.variants.first.price }}</p>
-        <p>Quantity: {{ product_quantity }}</p>
-        <!-- Add more code to display other product properties as needed -->
-       
-        {%- render 'product-grid-item',
-          product: item,
-          per_row: per_row,
-          quick_shop_enable: quick_shop_enable
-        -%}
-       {%- elsif item.object_type == 'search-result' and item.available -%}
-        <!-- Handle search results with available quantity -->
-        <h2>{{ item.title }}</h2>
-        <p>Available: {{ item.available }}</p>
-        <!-- Add more code to display other search result properties as needed -->
-        {%- render 'search-grid-item',
-          item: item,
-          per_row: per_row
-        %}
-      {%- endif -%}
-    {%- endfor -%}
+{%- for item in items -%}
+  {%- if item.object_type == 'product' -%}
+    {%- assign product_quantity = item.variants.first.inventory_quantity | default: 0 -%}
+    {%- if product_quantity > 0 -%}
+      <h2>{{ item.title }}</h2>
+      <p>Price: {{ item.variants.first.price }}</p>
+      <p>Quantity: {{ product_quantity }}</p>
+      <!-- Add more code to display other product properties as needed -->
+      {%- render 'product-grid-item',
+        product: item,
+        per_row: per_row,
+        quick_shop_enable: quick_shop_enable
+      -%}
+    {%- endif -%}
+  {%- elsif item.object_type == 'search.result' and product.available -%}
+    <!-- Handle search results with available quantity -->
+    {%- render 'search-grid-item',
+      item: item,
+      per_row: per_row
+    %}
+  {%- endif -%}
+{%- endfor -%}
   </div>
 </div>
 
