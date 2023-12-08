@@ -30,6 +30,12 @@
 
          <div class="grid__item medium-up--four-fifths grid__item--content">
   {% assign products_with_quantity = search.results | where: 'variants.first.inventory_quantity', '>', 0 %}
+  <p>Number of products with quantity: {{ products_with_quantity.size }}</p>
+  
+  {% for product in products_with_quantity %}
+    <p>{{ product.title }} - Quantity: {{ product.variants.first.inventory_quantity }}</p>
+  {% endfor %}
+
   {% if products_with_quantity.size > 0 %}
     {% render 'collection-grid',
       collection: search,
