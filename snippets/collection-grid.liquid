@@ -76,9 +76,7 @@ Snippet Arguments
       {%- elsif item.object_type == 'search-result' and item.available -%}
         <!-- Handle search results with available quantity -->
         <div class="search-grid-item">
-          <h2>{{ item.title }}</h2>
-          <p>Available: {{ item.available }}</p>
-          <!-- Add more code to display other search result properties as needed -->
+
 
          
         {%- render 'search-grid-item',
