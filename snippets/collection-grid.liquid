@@ -63,7 +63,7 @@ Snippet Arguments
       
         {%- assign product_quantity = item.variants.first.inventory_quantity | default: 0 -%}
       {%- if item.object_type == 'product' and product_quantity > 0 -%}
-       <div class="product-grid-item">
+    
         
         {%- render 'product-grid-item',
           product: item,
