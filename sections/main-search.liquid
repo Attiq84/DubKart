@@ -28,34 +28,32 @@
 
         <div id="CollectionAjaxContent" class="grid grid--uniform" data-scroll-to>
 
-         <div class="grid__item medium-up--four-fifths grid__item--content">
-  {% assign products_with_quantity = search.results | where: 'variants.first.inventory_quantity', '>', 0 %}
-  <p>Number of products with quantity: {{ products_with_quantity.size }}</p>
-  
-  {% for product in products_with_quantity %}
-    <p>{{ product.title }} - Quantity: {{ product.variants.first.inventory_quantity }}</p>
-  {% endfor %}
+          <div class="grid__item medium-up--one-fifth grid__item--sidebar">
+            {%- render 'collection-grid-filters',
+              collection: search,
+              enable_sidebar: section.settings.enable_sidebar,
+              filter_style: section.settings.filter_style,
+              collapsed: section.settings.collapsed,
+              enable_color_swatches: section.settings.enable_color_swatches
+            -%}
+          </div>
 
-  {% if products_with_quantity.size > 0 %}
-    {% render 'collection-grid',
-      collection: search,
-      items: products_with_quantity,
-      enable_sidebar: section.settings.enable_sidebar,
-      filter_style: section.settings.filter_style,
-      enable_sort: true,
-      enable_collection_count: true,
-      per_row: section.settings.per_row,
-      mobile_flush_grid: section.settings.mobile_flush_grid,
-      quick_shop_enable: settings.quick_shop_enable
-    %}
-  {% else %}
-    <p>No products with quantity available.</p>
-  {% endif %}
-
-  {%- if paginate.pages > 1 -%}
-    {%- render 'pagination', paginate: paginate -%}
-  {%- endif -%}
-</div>
+          <div class="grid__item medium-up--four-fifths grid__item--content">
+            {% render 'collection-grid',
+              collection: search,
+              items: search.results,
+              enable_sidebar: section.settings.enable_sidebar,
+              filter_style: section.settings.filter_style,
+              enable_sort: true,
+              enable_collection_count: true,
+              per_row: section.settings.per_row,
+              mobile_flush_grid: section.settings.mobile_flush_grid
+              quick_shop_enable: settings.quick_shop_enable
+            %}
+            {%- if paginate.pages > 1 -%}
+              {%- render 'pagination', paginate: paginate -%}
+            {%- endif -%}
+          </div>
         </div>
 
         {%- endpaginate -%}
