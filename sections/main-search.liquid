@@ -41,10 +41,8 @@
           <div class="grid__item medium-up--four-fifths grid__item--content">
             {% render 'collection-grid',
               collection: search,
-  item:search.results,
-if item.object_type == 'product' and item.available == true,
-  
-             enable_sidebar: section.settings.enable_sidebar,
+              items: search.results,
+              enable_sidebar: section.settings.enable_sidebar,
               filter_style: section.settings.filter_style,
               enable_sort: true,
               enable_collection_count: true,
