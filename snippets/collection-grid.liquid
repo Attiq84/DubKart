@@ -64,10 +64,7 @@ Snippet Arguments
         {%- assign product_quantity = item.variants.first.inventory_quantity | default: 0 -%}
       {%- if item.object_type == 'product' and product_quantity > 0 -%}
        <div class="product-grid-item">
-          <h2>{{ item.title }}</h2>
-          <p>Price: {{ item.variants.first.price }}</p>
-          <p>Quantity: {{ product_quantity }}</p>
-          <!-- Add more code to display other product properties as needed -->
+        
         {%- render 'product-grid-item',
           product: item,
           per_row: per_row,
