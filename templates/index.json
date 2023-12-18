@@ -205,6 +205,7 @@
         },
         "61448055-f9f7-4fe7-94e0-6b71add5bb90": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "sale",
             "title": "",
