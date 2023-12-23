@@ -32,22 +32,22 @@
         "ef03a933-7997-4bb4-ab78-d755f5f4bfe0": {
           "type": "sales_point",
           "settings": {
-            "icon": "gift",
-            "text": "Free shipping >100 AED, hassle free returns!"
+            "icon": "truck",
+            "text": "Free shipping on orders above 100 AED"
           }
         },
         "717d4ba9-833d-4a03-a5e9-b32210449bcc": {
           "type": "sales_point",
           "settings": {
-            "icon": "truck",
-            "text": "Orders before 3pm = next day delivery!"
+            "icon": "heart",
+            "text": "Way better prices than Amazon & Noon"
           }
         },
         "af687e77-a905-4226-a25d-dcbf671c945c": {
           "type": "sales_point",
           "settings": {
-            "icon": "package",
-            "text": "Orders after 3pm = 2nd day delivery!"
+            "icon": "ribbon",
+            "text": "Hassle free returns"
           }
         },
         "tab": {
