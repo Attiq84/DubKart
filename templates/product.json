@@ -50,6 +50,14 @@
             "text": "Orders after 3pm = 2nd day delivery!"
           }
         },
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "title": "Shipping information",
+            "content": "<p><strong>Free shipping terms<\/strong><\/p><p>We offer free shipping on orders over AED 100.<\/p><p><strong>Delivery time<\/strong><\/p><p>In most cases if you order before 12pm, you'll receive your order on the same or next day if your address is in Dubai, Sharjah & Ajman. For other Emirates, it will be a maximum of 2 days.<\/p><p><strong>What happens if my order is delayed?<\/strong><\/p><p>If delivery is delayed for any reason we will let you know as soon as possible and will advise you of a revised estimated date for delivery.<\/p><p>Alternatively, feel free to contact us by WhatsApp (+971508402275) or email (support@dubkart.ae) and one of our team members will advise you accordingly! <\/p>",
+            "page": ""
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -75,14 +83,6 @@
           "type": "description",
           "settings": {
             "is_tab": false
-          }
-        },
-        "tab": {
-          "type": "tab",
-          "settings": {
-            "title": "Shipping information",
-            "content": "<p><strong>Free shipping terms<\/strong><\/p><p>We offer free shipping on orders over AED 100.<\/p><p><strong>Delivery time<\/strong><\/p><p>In most cases if you order before 12pm, you'll receive your order on the same or next day if your address is in Dubai, Sharjah & Ajman. For other Emirates, it will be a maximum of 2 days.<\/p><p><strong>What happens if my order is delayed?<\/strong><\/p><p>If delivery is delayed for any reason we will let you know as soon as possible and will advise you of a revised estimated date for delivery.<\/p><p>Alternatively, feel free to contact us by WhatsApp (+971508402275) or email (support@dubkart.ae) and one of our team members will advise you accordingly! <\/p>",
-            "page": ""
           }
         },
         "contact": {
@@ -114,11 +114,11 @@
         "ef03a933-7997-4bb4-ab78-d755f5f4bfe0",
         "717d4ba9-833d-4a03-a5e9-b32210449bcc",
         "af687e77-a905-4226-a25d-dcbf671c945c",
+        "tab",
         "variant_picker",
         "9864e3ed-a869-478a-8b02-ed85643f7c9f",
         "buy_buttons",
         "description",
-        "tab",
         "contact",
         "7d40d5e4-6a98-4318-948a-6a9a27f78423",
         "9f08a308-ac35-426c-b81f-2e1f0a60d9e2"
