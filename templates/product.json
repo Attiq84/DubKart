@@ -18,6 +18,13 @@
             "stars_text_empty": "No reviews"
           }
         },
+        "inventory_status_gJeU8y": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
         "2f4e3429-5159-4bea-8a3c-c3e4de7ba34c": {
           "type": "custom",
           "settings": {
@@ -109,6 +116,7 @@
       "block_order": [
         "price",
         "d27c9848-24ff-417e-a705-13ef53bc9b56",
+        "inventory_status_gJeU8y",
         "2f4e3429-5159-4bea-8a3c-c3e4de7ba34c",
         "separator",
         "ef03a933-7997-4bb4-ab78-d755f5f4bfe0",
