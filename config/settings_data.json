@@ -105,18 +105,18 @@
               "link": ""
             }
           },
-          "26c41f03-8faf-455d-8340-14254dedf8a0": {
+          "2db4f9af-34c7-4d1d-9c01-dd4060c1103c": {
             "type": "announcement",
             "settings": {
-              "text": "Super easy, free returns!",
+              "text": "10 AED delivery for orders below 100!",
               "link_text": "",
               "link": ""
             }
           },
-          "2db4f9af-34c7-4d1d-9c01-dd4060c1103c": {
+          "26c41f03-8faf-455d-8340-14254dedf8a0": {
             "type": "announcement",
             "settings": {
-              "text": "10 AED delivery - orders below 100!",
+              "text": "Super easy, free returns!",
               "link_text": "",
               "link": ""
             }
@@ -125,8 +125,8 @@
         "block_order": [
           "1524770014057",
           "1524770292306",
-          "26c41f03-8faf-455d-8340-14254dedf8a0",
-          "2db4f9af-34c7-4d1d-9c01-dd4060c1103c"
+          "2db4f9af-34c7-4d1d-9c01-dd4060c1103c",
+          "26c41f03-8faf-455d-8340-14254dedf8a0"
         ],
         "settings": {
           "main_menu_link_list": "main-menu",
