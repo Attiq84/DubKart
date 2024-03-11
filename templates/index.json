@@ -7,16 +7,16 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "RAMADAN SALE",
+            "title": "",
             "title_size": 62,
-            "subheading": "Discount upto 70%",
+            "subheading": "",
             "link": "shopify:\/\/collections\/sale",
             "link_text": "Shop Now",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/imgonline-com-ua-convertnABGhbUN2keV.webp",
+            "image": "shopify:\/\/shop_images\/Ramadan-Sale_11zon.webp",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
