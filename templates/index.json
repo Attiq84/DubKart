@@ -7,16 +7,17 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "",
+            "title": "RAMADAN SALE",
             "title_size": 62,
-            "subheading": "",
+            "subheading": "Discount upto 70%",
             "link": "shopify:\/\/collections\/sale",
             "link_text": "Shop Now",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Ramadan-Sale_11zon.webp",
+            "image": "shopify:\/\/shop_images\/imgonline-com-ua-convertnABGhbUN2keV.webp",
+            "image_mobile": "shopify:\/\/shop_images\/Copy_of_A_Time_of_eflection_1.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
