@@ -111,6 +111,11 @@
           "disabled": true,
           "settings": {
           }
+        },
+        "judge_me_reviews_preview_badge_gRjtPB": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -129,7 +134,8 @@
         "description",
         "contact",
         "7d40d5e4-6a98-4318-948a-6a9a27f78423",
-        "9f08a308-ac35-426c-b81f-2e1f0a60d9e2"
+        "9f08a308-ac35-426c-b81f-2e1f0a60d9e2",
+        "judge_me_reviews_preview_badge_gRjtPB"
       ],
       "settings": {
         "sku_enable": false,
