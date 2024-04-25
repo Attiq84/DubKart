@@ -180,12 +180,6 @@ Arguments
             {{ product.price  | money }}
           {%- endif -%}
 
-            <!-- Start of Judge.me code -->
-  <div class='jdgm-widget jdgm-preview-badge'>
-    {{ product.metafields.judgeme.badge }}
-  </div>
-<!-- End of Judge.me code -->
-
           {%- if on_sale -%}
             {%- if settings.product_save_amount -%}
               {%- if settings.product_save_type == 'dollar' -%}
@@ -197,6 +191,13 @@ Arguments
                 {{ 'products.general.save_html' | t: saved_amount: saved_amount }}
               </span>
             {%- endif -%}
+
+            <!-- Start of Judge.me code -->
+  <div class='jdgm-widget jdgm-preview-badge'>
+    {{ product.metafields.judgeme.badge }}
+  </div>
+<!-- End of Judge.me code -->
+            
           {%- endif -%}
 
           {%- assign product_variant = product.selected_or_first_available_variant -%}
