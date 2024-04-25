@@ -844,7 +844,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".jdgm-preview-badge .jdgm-star {color: #000000; }"
+
     ]
   }
 }
