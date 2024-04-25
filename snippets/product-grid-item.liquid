@@ -191,14 +191,13 @@ Arguments
                 {{ 'products.general.save_html' | t: saved_amount: saved_amount }}
               </span>
             {%- endif -%}
-
-            <!-- Start of Judge.me code -->
+            
+          {%- endif -%}
+<!-- Start of Judge.me code -->
   <div class='jdgm-widget jdgm-preview-badge'>
     {{ product.metafields.judgeme.badge }}
   </div>
 <!-- End of Judge.me code -->
-            
-          {%- endif -%}
 
           {%- assign product_variant = product.selected_or_first_available_variant -%}
           {%- if product_variant.unit_price_measurement -%}
