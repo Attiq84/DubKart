@@ -4,10 +4,10 @@
 Plugins:
 JavaScript Cookie       2.2.0
 AOS                     2.3.4
-Flickity                2.3.0 with customizations by
-Flickity Fade           1.0.0 with customizations by 
+Flickity                2.3.0 with customizations by Attiq
+Flickity Fade           1.0.0 with customizations by Attiq
 Photoswipe              4.1.3
-Photoswipe UI           4.1.2 with customizations by 
+Photoswipe UI           4.1.2 with customizations by Attiq
 noUiSlider              15.2.0
 
 Lazysizes for image loading:
